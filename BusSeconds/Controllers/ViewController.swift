@@ -53,7 +53,6 @@ final class ViewController: UIViewController {
             timeLabel.text = text
             print("あと\(hour):\(minuteString):\(secondString)")
         }
-            
     }
     
     /// 時刻表の直近の時間を取得
