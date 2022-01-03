@@ -17,6 +17,8 @@
 		F47C40962782D3F000CDD87C /* BusSecondsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C40952782D3F000CDD87C /* BusSecondsTests.swift */; };
 		F47C40A02782D3F000CDD87C /* BusSecondsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C409F2782D3F000CDD87C /* BusSecondsUITests.swift */; };
 		F47C40A22782D3F100CDD87C /* BusSecondsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C40A12782D3F100CDD87C /* BusSecondsUITestsLaunchTests.swift */; };
+		F47C40AF2782D58400CDD87C /* BusTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C40AE2782D58400CDD87C /* BusTime.swift */; };
+		F47C40B12783303F00CDD87C /* BusTimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C40B02783303E00CDD87C /* BusTimeTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F47C409B2782D3F000CDD87C /* BusSecondsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusSecondsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47C409F2782D3F000CDD87C /* BusSecondsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusSecondsUITests.swift; sourceTree = "<group>"; };
 		F47C40A12782D3F100CDD87C /* BusSecondsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusSecondsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F47C40AE2782D58400CDD87C /* BusTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTime.swift; sourceTree = "<group>"; };
+		F47C40B02783303E00CDD87C /* BusTimeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTimeTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,10 @@
 		F47C407A2782D3EE00CDD87C /* BusSeconds */ = {
 			isa = PBXGroup;
 			children = (
+				F47C40B2278338EE00CDD87C /* Models */,
+				F47C40B32783390A00CDD87C /* Controllers */,
 				F47C407B2782D3EE00CDD87C /* AppDelegate.swift */,
 				F47C407D2782D3EE00CDD87C /* SceneDelegate.swift */,
-				F47C407F2782D3EE00CDD87C /* ViewController.swift */,
 				F47C40812782D3EE00CDD87C /* Main.storyboard */,
 				F47C40872782D3F000CDD87C /* Assets.xcassets */,
 				F47C40892782D3F000CDD87C /* LaunchScreen.storyboard */,
@@ -128,6 +133,23 @@
 				F47C40A12782D3F100CDD87C /* BusSecondsUITestsLaunchTests.swift */,
 			);
 			path = BusSecondsUITests;
+			sourceTree = "<group>";
+		};
+		F47C40B2278338EE00CDD87C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F47C40AE2782D58400CDD87C /* BusTime.swift */,
+				F47C40B02783303E00CDD87C /* BusTimeTable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F47C40B32783390A00CDD87C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F47C407F2782D3EE00CDD87C /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47C40AF2782D58400CDD87C /* BusTime.swift in Sources */,
 				F47C40862782D3EE00CDD87C /* BusSeconds.xcdatamodeld in Sources */,
 				F47C40802782D3EE00CDD87C /* ViewController.swift in Sources */,
 				F47C407C2782D3EE00CDD87C /* AppDelegate.swift in Sources */,
+				F47C40B12783303F00CDD87C /* BusTimeTable.swift in Sources */,
 				F47C407E2782D3EE00CDD87C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
